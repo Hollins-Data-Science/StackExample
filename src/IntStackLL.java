@@ -59,7 +59,6 @@ public class IntStackLL implements IntStack {
    */
   public boolean empty() {
     // if top is null then the stack is empty
-    // System.out.println(this.top.value);
     return (top == null);
   }
 
